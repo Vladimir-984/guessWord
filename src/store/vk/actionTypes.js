@@ -1,0 +1,3 @@
+export const SET_SCHEME = "VK/SET_SCHEME"
+export const SET_FETCHED_USER = "VK/SET_FETCHED_USER"
+export const SET_USER_DATA = "VK/SET_USER_DATA"

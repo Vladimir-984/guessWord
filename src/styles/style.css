@@ -1,0 +1,115 @@
+.vkuiEpic .Panel--game .vkuiPanel__in  {
+  padding-bottom: 0;
+}
+
+.vkuiEpic .game.vkuiSnackbar {
+  padding-bottom: var(--safe-area-inset-bottom);
+}
+
+.vkuiPanelHeader__content-in {
+  font-weight: 700;
+}
+.container__word{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.letter__word {
+width: 40px;
+height: 40px;
+color: var(--button_primary_background);
+/* background-color: var(--button_secondary_background_highlighted); */
+box-sizing: border-box;
+margin: 3px;
+border-radius: 4px;
+
+border: solid 0.5px var(--header_tab_inactive_text);
+/* --placeholder_icon_foreground_secondary */
+
+display: flex;
+font-size: 22px;
+justify-content: center;
+align-items: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.Counter--icons{
+  /* background: #aeb7c24a; */
+  background: var(--background_highlighted);
+  color: var(--button_primary_background);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.letters {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.letter {
+  background-color: var(---background_content);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  line-height: 1;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  color: var(--button_primary_background);
+  /* color: #132f63; */
+  
+}
+
+/* Profile */
+.profile--gradient{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.profile--title_user_name{
+  margin-bottom: 8px;
+  margin-top: 20px; 
+}
+.profile--text_user_rank{
+color: var(--text_secondary)
+}
+
+
+
+.iconLetter{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  background-color: #ffffff33;
+  border-radius: 50%;
+}
+
+
+.vkuiEpic .vkuiFixedLayout--bottom.fixed--promo{
+  padding-bottom: 0;
+}
+.vkuiSpacing.sepa {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.vkuiSpacing.sepa::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: currentColor;
+  -webkit-transform-origin: center top;
+  transform-origin: center top;
+}
