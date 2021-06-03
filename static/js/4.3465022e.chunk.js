@@ -1,2 +1,0 @@
-(this.webpackJsonpguess_the_word=this.webpackJsonpguess_the_word||[]).push([[4],{154:function(s,t,e){"use strict";e.r(t);var d=e(151),a=e(152),i=e(153);d.init(),d.add(a),d.add(i),t.default=d}}]);
-//# sourceMappingURL=4.3465022e.chunk.js.map
